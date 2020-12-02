@@ -1,11 +1,15 @@
 # msbd5001 the kaggle competition 
 
-The dataset provides the average traffic speed per hour for a major road in Hong Kong from 2017 to 2018. 
-Part of the dataset is provided as the training data, and the task is to predict the rest. 
-80% of the dataset is provided as the training data and 20% as the testing data, including the timestamp and the corresponding average speed.
+The dataset provides the average traffic speed per hour for a major road in Hong Kong from 2017 to 2018 from the smart city project of iSingLab (Smart City).
+The dataset got the information of date time and the corresponding average speed per hours
 
-I seperate the code to 3 parts:
-Feature engineering into year month day weekday and hour
-Model training for KNN and linear regressions
-Model performance of RMSE part
+Our tasks is to build the training model and evaluate the performance of result 
 
+I seperate the code to 3 parts in ipython file
+1.Feature engineering into year month day weekday and hour
+2.Model training for KNN and linear regressions
+3.Model performance of RMSE part
+
+Some observation was found during prediction
+1. the peak hour will be morning and nearly evening 
+2. the idle hour withs lower speed will be the midnight.
