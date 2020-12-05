@@ -6,10 +6,6 @@ The dataset got the information of date time and the corresponding average speed
 Our tasks is to build the training model and evaluate the performance of result 
 
 I seperate the code to 3 parts in ipython file
-1.Feature engineering into year month day weekday and hour
-2.Model training for KNN and linear regressions
-3.Model performance of RMSE part
-
-Some observation was found during prediction
-1. the peak hour will be morning and nearly evening 
-2. the idle hour withs lower speed will be the midnight.
+1.Feature engineering 
+2.Model training for XGBoost model
+3.Model performance
